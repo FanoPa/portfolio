@@ -1,0 +1,51 @@
+.titel{
+    padding: 10px;
+    font-size: 20px;    
+}
+
+.middenstuk{
+    margin: 0;
+    padding: 6%;
+}
+
+.naam{
+    text-align: center;
+    font-size: 30px;
+    padding: 20px;
+}
+
+.video{
+    height: 150px;
+    width: 100%;    
+}
+
+.home{
+    font-size: 15px;
+    text-align: center;
+}
+
+.text{
+    text-align: center;
+    margin: 2%;
+    font-size: 35px;
+}
+
+.image{
+    border-radius: 50%;
+    height: 80px;
+}
+
+.foto{
+    border-radius: 50%;
+    height: 250px;
+    margin: 15%;    
+}
+ 
+#myfooter{
+    margin-bottom: 0!important;
+    
+}
+
+#lijst{
+    margin: 5.09%;
+}
