@@ -13,54 +13,64 @@
 
 <body>
     <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom bg-success">
-        <a href="/portfolio" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
-          <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
-          <img src="media/logo.jpeg" alt="" width="50px" height="50px">
+        <a href="/portfolio"
+            class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+            <svg class="bi me-2" width="40" height="32">
+                <use xlink:href="#bootstrap"></use>
+            </svg>
+            <img src="media/logo.jpeg" alt="" width="50px" height="50px">
         </a>
 
         <ul class="nav nav-pills">
-          <li class="nav-item"><a href="index.html" class="nav-link text-white" aria-current="page">Home</a></li>
-          <li class="nav-item"><a href="overmij.html" class="nav-link text-white" aria-current="page">Over mij</a></li>
-          <li class="nav-item"><a href="contact.html" class="nav-link text-white" aria-current="page">Contact</a></li>
-          <li class="nav-item"><a href="projecten.html" class="nav-link text-white" aria-current="page">Projecten</a></li>
+            <li class="nav-item"><a href="index.html" class="nav-link text-white" aria-current="page">Home</a></li>
+            <li class="nav-item"><a href="overmij.html" class="nav-link text-white" aria-current="page">Over mij</a>
+            </li>
+            <li class="nav-item"><a href="contact.html" class="nav-link text-white" aria-current="page">Contact</a></li>
+            <li class="nav-item"><a href="projecten.html" class="nav-link text-white" aria-current="page">Projecten</a>
+            </li>
+            <li class="nav-item"><a href="media.html" class="nav-link text-white" aria-current="page">Media</a></li>
         </ul>
-      </header>
+    </header>
 
     <h1 class="text">Contact</h1>
 
-    <div id="lijst" class="d-flex justify-content-center">
-        <div class="card" style="width: 50rem;">
-            <div class="card-body">
-                <div class="mb-4">
-                    <label for="exampleFormControlInput1" class="form-label">Volledige naam</label>
-                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="">
+    <form action="contact.php" method="post">
+        <div id="lijst" class="d-flex justify-content-center">
+            <div class="card" style="width: 50rem;">
+                <div class="card-body">
+                    <div class="mb-4">
+                        <label for="exampleFormControlInput1" class="form-label">Volledige naam</label>
+                        <input type="text" class="form-control" name="naam" id="exampleFormControlInput1" placeholder="">
+                    </div>
+                    <div class="mb-4">
+                        <label for="exampleFormControlInput1" class="form-label">Email adres</label>
+                        <input type="email" class="form-control" name="email" id="exampleFormControlInput1"
+                            placeholder="naam@voorbeeld.com">
+                    </div>
+                    <div class="mb-4">
+                        <label for="exampleFormControlInput1" class="form-label">Telefoon nummer</label>
+                        <input type="text" class="form-control" name="telefoon" id="exampleFormControlInput1"
+                            placeholder="+31 6 12345678">
+                    </div>
+                    <div class="mb-4">
+                        <label for="exampleFormControlInput1" class="form-label">Bedrijfsnaam</label>
+                        <input type="text" class="form-control" name="bedrijfsnaam" id="exampleFormControlInput1" placeholder="">
+                    </div>
+                    <div class="mb-4">
+                        <label for="exampleFormControlTextarea1" class="form-label">Bericht</label>
+                        <textarea class="form-control" name="bericht" id="exampleFormControlTextarea1" rows="3"
+                            placeholder="Schrijf hier.."></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-success">Verzenden</button>
                 </div>
-                <div class="mb-4">
-                    <label for="exampleFormControlInput1" class="form-label">Email adres</label>
-                    <input type="email" class="form-control" id="exampleFormControlInput1"
-                        placeholder="naam@voorbeeld.com">
-                </div>
-                <div class="mb-4">
-                    <label for="exampleFormControlInput1" class="form-label">Telefoon nummer</label>
-                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="+31 6 12345678">
-                </div>
-                <div class="mb-4">
-                    <label for="exampleFormControlInput1" class="form-label">Bedrijfsnaam</label>
-                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="">
-                </div>
-                <div class="mb-4">
-                    <label for="exampleFormControlTextarea1" class="form-label">Bericht</label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
-                        placeholder="Schrijf hier.."></textarea>
-                </div>
-                <button type="submit" class="btn btn-success">Verzenden</button>
             </div>
         </div>
-    </div>
+    </form>
 
-    <footer id="myfooter" class="bottom-0 w-100 d-flex flex-wrap justify-content-center align-items-center py-5 my-5 border-top bg-success ">
+    <footer id="myfooter"
+        class="bottom-0 w-100 d-flex flex-wrap justify-content-center align-items-center py-5 my-5 border-top bg-success ">
         <div class="col-md-0 d-flex align-items-center">
-            <span class="mb-3 mb-md-0 text-body-secondary">© Grafisch Lyceum Rotterdam</span>
+            <span class="mb-3 mb-md-0 text-body-secondary">© Fano Pawiroredjo</span>
         </div>
     </footer>
 
