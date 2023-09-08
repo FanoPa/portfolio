@@ -71,7 +71,7 @@ if ($result->num_rows > 0) {
         echo '<div class="card-body">';
         echo '<h5 class="card-title">' . $row["titel"] . '</h5>';
         echo '<p class="card-text">' . $row["beschrijving"] . '</p>';
-        echo '<a href="' . $row["link"] . '" class="btn btn-primary">website</a>';
+        echo '<a href="' . $row["link"] . '" class="btn btn-success">Bekijken</a>';
         echo '</div>';
         echo '</div>';
         echo '</div>';
